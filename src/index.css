@@ -1,0 +1,168 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1;
+  overflow-x: hidden;
+}
+* {
+  font-family: "YekanBakh", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  background-color: transparent;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* styles pagination slider */
+
+.swiper-pagination {
+  position: relative;
+  /* bottom: 10px; */
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.swiper-pagination-bullet {
+  background-color: #ffccbc; /* رنگ پایه */
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  opacity: 1;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+.swiper-pagination-bullet-active {
+  background-color: #ff5722; /* رنگ زمانی که فعال است */
+  transform: scale(1.2);
+}
+/* styles pagination slider */
